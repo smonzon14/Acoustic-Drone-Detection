@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 sd.default.device = 0
 
 class AudioRecorderUI:
-  def __init__(self, sample_rate=44100, channels=16):
+  def __init__(self, sample_rate=48000, channels=16):
     self.sample_rate = sample_rate
     self.channels = channels
     self.is_recording = False
